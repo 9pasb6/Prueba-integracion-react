@@ -1,5 +1,4 @@
-# Prueba-integracion-react 💻
-
+# Prueba-integracion-react 💻⚛️
 
 # Padre e hijo
 En el presente proyecto se realiza una prueba de integración entre los componentes Padre e Hijo
