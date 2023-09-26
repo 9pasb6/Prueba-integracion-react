@@ -13,6 +13,7 @@ En el presente proyecto se realiza una prueba de integración entre los componen
 **Funciones en Padre**
 -  handleChange: Captura la entreda del valor enviado por el Hijo a traves de la funcion onTextChange  y hace uso de la funcion del hook para actualizar el valor inicial
 
-
-
+**Herramientas de testing**
+- Jest
+-  Testing Library
 
