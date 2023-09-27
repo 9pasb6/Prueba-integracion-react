@@ -5,6 +5,13 @@ En el presente proyecto se realiza una prueba de integración entre los componen
 
 - El componente Padre conteneriza el componente hijo, donde el componente Hijo por medio del uso de funciones *handle* hacen uso de Hooks (variables de estado) y eventos en la etiquetas input y button
 
+  
+**Alcance**
+  
+El alcance principal de la prueba se centra en la comunicación y la interacción entre estos ambos componentes, donde se esta verificando cómo el componente padre se comunica con su hijo y cómo el hijo    interactúa con el padre a través de ciertos eventos y cambios de estado.
+
+
+**Imagen ilustrativa**
 ![image](https://github.com/9pasb6/Prueba-integracion-react/assets/100176897/0e5abd06-e3f2-44e8-86f3-9450764cc646)
 
 
@@ -27,9 +34,5 @@ En el presente proyecto se realiza una prueba de integración entre los componen
 
 
   Ademas de la prueba de integración, se realizaron pruebas unitarias al componente App y componente Padre
-
-  **Alcance**
-  
-el alcance principal de la prueba se centra en la comunicación y la interacción entre estos ambos componentes, donde se esta verificando cómo el componente padre se comunica con su hijo y cómo el hijo    interactúa con el padre a través de ciertos eventos y cambios de estado.
 
 
