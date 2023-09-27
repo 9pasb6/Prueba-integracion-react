@@ -28,4 +28,8 @@ En el presente proyecto se realiza una prueba de integración entre los componen
 
   Ademas de la prueba de integración, se realizaron pruebas unitarias al componente App y componente Padre
 
+  **Alcance**
+  
+el alcance principal de la prueba se centra en la comunicación y la interacción entre estos ambos componentes, donde se esta verificando cómo el componente padre se comunica con su hijo y cómo el hijo    interactúa con el padre a través de ciertos eventos y cambios de estado.
+
 
