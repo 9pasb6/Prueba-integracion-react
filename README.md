@@ -12,13 +12,9 @@ En el presente proyecto se realiza una prueba de integración entre los componen
 -  handleChange: Captura la entreda del valor del input y hace uso de la funcion del hook para actualizar el valor inicial del input
 -  handleSummit: Luego, le settea el valor capturado al padre a travez de la función onTextChange
 
-  ![image](https://github.com/9pasb6/Prueba-integracion-react/assets/100176897/24abedb0-f876-4ee4-a79a-4aa1e87d5838)
-
 
 **Funciones en Padre**
 -  handleChange: Captura la entreda del valor enviado por el Hijo a traves de la funcion onTextChange  y hace uso de la funcion del hook para actualizar el valor inicial
-
-![image](https://github.com/9pasb6/Prueba-integracion-react/assets/100176897/da39d680-1dcc-4da8-8f1b-5746dc0e563a)
 
 
 **Herramientas de testing**
