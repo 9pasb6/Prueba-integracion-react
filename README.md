@@ -13,7 +13,9 @@ El alcance principal de la prueba se centra en la comunicación y la interacció
 
 **Imagen ilustrativa**
 
-![image](https://github.com/9pasb6/Prueba-integracion-react/assets/100176897/0e5abd06-e3f2-44e8-86f3-9450764cc646)
+ ![image](https://github.com/9pasb6/Prueba-integracion-react/assets/100176897/5453c91c-9700-4a90-8fc8-5bbd7678313d)
+
+
 
 
 **Funciones en Hijo**
