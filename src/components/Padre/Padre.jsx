@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Hijo from '../Hijo/Hijo';
+import './Padre.css'
 
 const Padre = () => {
 
@@ -18,9 +19,12 @@ const handleTextClean = () =>{
 // texto va ha llegar desde el hijo
   return (
     <>
+    <div className='bigContainer2'>
     <h1>Componente padre</h1>
     <h2>Texto: {text}</h2>
     <button onClick={handleTextClean}>Limpiar</button>
+
+    </div>
     <Hijo  onTextChange={handleTextChange} />
     </>
   )

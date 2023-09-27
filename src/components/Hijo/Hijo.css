@@ -50,3 +50,15 @@ justify-content: center;
 gap: 30px;
 
 }
+
+
+.bigContainer{
+  background-color: gray;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+input{
+  border-radius: 8px;
+  
+}

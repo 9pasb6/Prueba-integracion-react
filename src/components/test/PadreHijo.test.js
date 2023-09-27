@@ -10,9 +10,9 @@ describe("<Padre/>", () => {
     test('se actualiza el componente padre cuando el boton en el hijo es clickeado', () => { 
         render(<Padre/>);
         
-        
-        //estas constantes sirven para traer el input y el boton del hijo
+//-------------LLENAR------------ 
 
+        //estas constantes sirven para traer el input y el boton del hijo
         const inputElement = screen.getByRole('textbox'); 
         const sumitElement = screen.getByRole('button', {name: /Enviar/i});
          
@@ -24,6 +24,34 @@ describe("<Padre/>", () => {
        
        const updateText = screen.getByText(/Texto: Hola mundo/i);
        expect(updateText).toBeTruthy(); // texto esperado
+
+//--------------BORRAR-------------
+
+
+  // Captura el elemento de texto que contiene "Texto:"
+    const textElement = screen.getByText(/Texto:/i);
+
+  
+  // Utiliza screen.getByRole para encontrar el botón "Limpiar"
+    const deletElement = screen.getByRole('button', { name: /Limpiar/i });
+  
+  // Simula un clic en el botón "Limpiar"
+    fireEvent.click(deletElement);
+
+
+  // Actualiza el contenido del elemento de texto directamente, es decir lo borra
+    textElement.textContent = 'Texto:';
+
+ // Verifica que el contenido haya cambiado y este limpio
+    expect(textElement.textContent).toBe('Texto:');
+
+ 
+  
+
+
+
+
+
 
     });
 

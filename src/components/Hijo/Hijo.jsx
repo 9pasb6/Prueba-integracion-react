@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Hijo.css'
+import { Link } from 'react-router-dom';
 
 const Hijo = ({onTextChange}) => {
 
@@ -20,10 +21,12 @@ const Hijo = ({onTextChange}) => {
 
   return (
     <>
+    <div className='bigContainer'>
     <h1>Componente hijo</h1>
     <div className='container'>
     <input type="text" onChange={handleChange}/>
     <button onClick={handleSubmit}>Enviar</button>
+    </div>
     </div>
   
 
