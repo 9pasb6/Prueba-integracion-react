@@ -26,3 +26,6 @@ En el presente proyecto se realiza una prueba de integración entre los componen
   ![image](https://github.com/9pasb6/Prueba-integracion-react/assets/100176897/382ef056-65ad-4d4a-85d9-df04d7bbcb68)
 
 
+  Ademas de la prueba de integración, se realizaron pruebas unitarias al componente App y componente Padre
+
+
